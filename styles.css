@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px; /* Avoid content touching the bottom */
+}
+
+header {
+    background-color: #b9cabf;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.screenshot {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Centering the image */
+}
+
+.project-overview, .project-context, .project-narrative, .final-product {
+    margin-bottom: 20px;
+}
+#sketch{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 15px;
+    gap: 50px;
+}
+#sketch img{
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+.sketch{
+    text-align: center;
+}
+
+#Low-fidelity{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#Low-fidelity img{
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+.low{
+    text-align: center;
+}
+#hi{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#hi img{
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+.hi{
+    text-align: center;
+}
+footer {
+    background-color: #b9cabf;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.inline {
+    display: inline;
+}
